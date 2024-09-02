@@ -1,0 +1,189 @@
+/* Existing CSS classes */
+.container {
+  margin-bottom: 30px;
+}
+
+.list {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 10px;
+  background-color: #f9f9f9;
+  min-height: 200px;
+}
+
+.list-item {
+  padding: 10px;
+  margin-bottom: 5px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  background-color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+
+#todo {
+  border-left: 7px solid #007bff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+#inprogress {
+  border-left: 7px solid #ffc107;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+#done {
+  border-left: 7px solid #28a745;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.btn-sm {
+  margin-right: 5px;
+}
+
+.btn-close {
+  margin: 0;
+  padding: 0;
+}
+
+.modal-body .form-control {
+  margin-bottom: 10px;
+}
+
+h1 {
+  font-size: 2em;
+}
+
+.btn-secondary {
+  background-color: #28a745;
+}
+
+.btn-primary1 {
+  margin-left: 71%;
+  background-color: #28a745;
+}
+
+.btn-primary1:hover {
+  margin-left: 71%;
+  background-color: #395f42;
+}
+
+.due-today {
+  background-color: orange;
+  color: black;
+  padding: 0.25em 0.5em;
+  border-radius: 0.25em;
+}
+
+.due-tomorrow{
+  background-color: rgb(236, 236, 10);
+  color: black;
+  padding: 0.25em 0.5em;
+  border-radius: 0.25em;
+}
+
+.cdk-drag-preview {
+  border-radius: 4px;
+  box-shadow: 0 5px 5px -3px rgba(0, 0, 0, 0.2),
+    0 8px 10px 1px rgba(0, 0, 0, 0.14),
+    0 3px 14px 2px rgba(0, 0, 0, 0.12);
+  margin: 0 auto;
+}
+
+.cdk-drop-list-dragging.cdk-drag {
+  transition: transform 250ms cubic-bezier(0, 0, 0.2, 1);
+}
+
+.cdk-drag-animating {
+  transition: transform 300ms cubic-bezier(0, 0, 0.2, 1);
+}
+
+.cdk-drag-placeholder {
+  opacity: 0;
+}
+
+.container.pt-3 {
+  margin-top: 50px;
+  padding-top: 1rem;
+  padding-bottom: 50px;
+  background-color: #f8f9fa;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border-top: 7px solid #007bff;
+}
+
+.btn-default {
+  font-weight: 500;
+  background-color: #007bff;
+  color: #f8f9fa;
+  margin-top: 20px;
+}
+
+.btn-default:hover {
+  font-weight: 500;
+  background-color: #007bff;
+  color: #f8f9fa;
+}
+
+.check {
+  display: flex;
+  flex-grow: 10;
+  align-items: center;
+}
+
+.task {
+  padding: 0 13px;
+}
+
+
+.task-done-text  {
+  font-weight: bold;
+  color: green;
+  
+}
+
+.btn-sm:hover {
+  background-color: grey;
+}
+
+.due-date-wrapper {
+  flex-grow: 1;
+  padding: 0 25px;
+}
+
+.overdue-label {
+  background-color: rgb(243, 98, 98);
+  color: black;
+  padding: 0.25em 0.5em;
+  border-radius: 0.25em;
+  flex-grow: 1;
+  font-weight: 700;
+
+}
+
+.duee {
+  font-size: 10.9px;
+}
+
+.dropdown{
+  justify-content: end;
+}
+
+
+.bbb {
+  display: flex;
+  justify-content: end;
+}
+
+.centermo {
+  display: flex;
+  justify-content: space-around;
+}
+
+.tapos {
+  color: green;
+
+}
+
